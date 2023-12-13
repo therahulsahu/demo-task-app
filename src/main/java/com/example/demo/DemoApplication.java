@@ -22,10 +22,10 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @EventListener(ApplicationReadyEvent.class)
-    void runAfterStartup() {
-        List<Todo> todos = todoClient.getTodos();
-        todos.forEach(System.out::println);
-    }
+//    @EventListener(ApplicationReadyEvent.class)
+//    void runAfterStartup() {
+//        List<Todo> todos = todoClient.getTodos();
+//        todos.forEach(System.out::println);
+//    }
 
 }
