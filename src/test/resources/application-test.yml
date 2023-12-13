@@ -1,0 +1,12 @@
+app:
+  todoUrl: http://localhost:3040
+
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 5000
+            readTimeout: 5000
+            loggerLevel: full
