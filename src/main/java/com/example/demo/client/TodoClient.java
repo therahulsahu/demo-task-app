@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "todos", url = "http://jsonplaceholder.typicode.com")
+@FeignClient(value = "todos", url = "${app.todoUrl}")
 public interface TodoClient {
 	@RequestMapping(method = RequestMethod.GET, value = "/todos")
 	List<Todo> getTodos();

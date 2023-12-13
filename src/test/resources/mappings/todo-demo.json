@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/todos"
+  },
+  "response": {
+    "status": 200,
+    "body": "[\n  {\n    \"userId\": 1,\n    \"id\": 7,\n    \"title\": \"do coding\",\n    \"completed\": false\n  }\n]",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
