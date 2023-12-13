@@ -5,7 +5,7 @@
   },
   "response": {
     "status": 200,
-    "body": "[\n  {\n    \"userId\": 1,\n    \"id\": 7,\n    \"title\": \"do coding\",\n    \"completed\": false\n  }\n]",
+    "bodyFileName": "demo-response.json",
     "headers": {
       "Content-Type": "application/json"
     }

@@ -21,6 +21,7 @@ class TodoServiceImplTest {
     @DynamicPropertySource
     static void configureProperties(DynamicPropertyRegistry registry) {
         registry.add("app.todoUrl", () -> "http://localhost:3030");
+        registry.add("spring.cloud.openfeign.client.config.default.loggerLevel", () -> "full");
     }
 
     @BeforeEach
